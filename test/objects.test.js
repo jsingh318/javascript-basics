@@ -177,7 +177,7 @@ describe("averageAge", () => {
 });
 
 describe("createTalkingPerson", () => {
-  xit("returns a person who can introduce themselves", () => {
+  it("returns a person who can introduce themselves", () => {
     const bill = createTalkingPerson("Bill", 40);
     expect(bill).toEqual({
       name: "Bill",
